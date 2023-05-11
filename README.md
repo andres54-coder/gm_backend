@@ -6,21 +6,23 @@
 _1. clona el proyecto_
 
 ```
-git clone https://github.com/andres54-coder/gm_backend.git
+git clone https://github.com/andres54-coder/pt-big-holding.git
 ```
 _2. instala las dependecias - sobre la raiz del proyecto previamente descargado ejecuta_
 
 ```
 composer install 
 ```
-_3. ejecuta migraciones - ASEGURATE DE CONFIGURAR PREVIAMENTE EL .ENV CON LA CONECCION A UNA BASE DE DATOS MYSQL LLAMADA gm_backend_
+_3. copia el .env.example y dejalo como .env - ASEGURATE DE CONFIGURAR PREVIAMENTE EL .ENV CON LA CONECCION A UNA BASE DE DATOS MYSQL LLAMADA gm_backend_
 
 ```
-php artisan migrate
+mv .env.example .env
 ```
 _4. por ultimo inicia el servidor de desarrollo con_
 
 ```
 php artisan serve
 ```
-##el link de la app deberia quedar como http://127.0.0.1:8000 bajo el puerto 8000
+##el link de la app deberia quedar como http://127.0.0.1:8000
+
+- [Coleccion para testear API en POSTMAN](https://drive.google.com/file/d/11YGWFTJAsFgmqLVDIBR9r59XFPWrkztf/view?usp=share_link).
